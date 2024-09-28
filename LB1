@@ -1,0 +1,72 @@
+PS C:\Users\ccame\OneDrive\Desktop>
+mkdir IOD2
+
+
+    Directory: 
+    C:\Users\ccame\OneDrive\Desktop
+
+
+Mode                 LastWriteTime   Length
+----                 -------------   ------
+d-----         9/28/2024  10:15 AM
+
+
+PS C:\Users\ccame\OneDrive\Desktop> cd IOD2
+PS C:\Users\ccame\OneDrive\Desktop\IOD2> mkdir module.1
+
+
+    Directory:
+    C:\Users\ccame\OneDrive\Desktop\IOD2    
+
+
+Mode                 LastWriteTime   Length 
+----                 -------------   ------ 
+d-----         9/28/2024  10:15 AM
+
+
+PS C:\Users\ccame\OneDrive\Desktop\IOD2> pwd
+
+
+Path
+----
+C:\Users\ccame\OneDrive\Desktop\IOD2        
+
+
+PS C:\Users\ccame\OneDrive\Desktop\IOD2> cd module.1
+PS C:\Users\ccame\OneDrive\Desktop\IOD2\module.1> pwd
+
+Path
+----
+C:\Users\ccame\OneDrive\Desktop\IOD2\mod...
+
+
+PS C:\Users\ccame\OneDrive\Desktop\IOD2\module.1> cd ..
+PS C:\Users\ccame\OneDrive\Desktop\IOD2> rm IOD2
+rm : Cannot find path 'C:\Users\ccame\OneDr
+ive\Desktop\IOD2\IOD2' because it does not  
+exist.
+At line:1 char:1
++ rm IOD2
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFou  
+   nd: (C:\Users\ccame\...sktop\IOD2\IOD2   
+  :String) [Remove-Item], ItemNotFoundEx    
+ ception
+    + FullyQualifiedErrorId : PathNotFound  
+   ,Microsoft.PowerShell.Commands.RemoveI   
+  temCommand
+ 
+PS C:\Users\ccame\OneDrive\Desktop\IOD2> CD ..
+PS C:\Users\ccame\OneDrive\Desktop> rm IOD2
+
+Confirm
+The item at
+C:\Users\ccame\OneDrive\Desktop\IOD2 has    
+children and the Recurse parameter was not  
+specified. If you continue, all children    
+will be removed with the item. Are you sure 
+ you want to continue?
+[Y] Yes  [A] Yes to All  [N] No  
+[L] No to All[S] Suspend  [?] Help 
+(default is "Y"):Y
+PS C:\Users\ccame\OneDrive\Desktop>
